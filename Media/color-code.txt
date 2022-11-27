@@ -1,2 +1,6 @@
 PC: #ffe35b
 SC: #28a745
+
+https://www.simform.com/blog/javascript-frontend-frameworks/
+
+https://kinsta.com/blog/javascript-libraries/

@@ -8,7 +8,7 @@
     <title>Bootsrap Blog:Home | Front End Technology</title>
     <meta name="keywords" content="Front End Technology">
     <meta name="description" content="Front end Technology">
-    <link rel="shortcut icon" href="assets/img/favicon.jpg">
+    <link rel="shortcut icon" href="assets/images/favicon.jpg">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -16,8 +16,8 @@
     <script src="assets/js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.css">
 
 </head>
 
@@ -25,7 +25,7 @@
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="assets/images/logo.jpg" class="logo-img" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" class="logo-img" alt="logo"></a>
                 <button class="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbarsExample05"
                     aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
@@ -44,11 +44,11 @@
                                 aria-expanded="false">Web Front End
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">HTML</a>
-                                <a class="dropdown-item" href="#">CSS</a>
-                                <a class="dropdown-item" href="#">JAVASCIPT</a>
+                                <a class="dropdown-item" href="html5.html">HTML</a>
+                                <a class="dropdown-item" href="css.html">CSS</a>
+                                <a class="dropdown-item" href="javascript.html">JAVASCIPT</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">UI/UX</a>
+                                <a class="dropdown-item" href="UI_UX.html">UI/UX</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -56,30 +56,31 @@
                                 aria-expanded="false">Assets
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Common Assets</a>
-                                <a class="dropdown-item" href="#">Code Editors</a>
-                                <a class="dropdown-item" href="#">Version Control System</a>
-                                <a class="dropdown-item" href="#">Developer tools</a>
-                                <a class="dropdown-item" href="#">Code Validotors</a>
-                                <a class="dropdown-item" href="#">Online Code Environments</a>
+                                <a class="dropdown-item" href="common_web_assets.html">Common Web Assets</a>
+                                <a class="dropdown-item" href="code_editors.html">Code Editors</a>
+                                <a class="dropdown-item" href="version_control_system.html">Version Control System</a>
+                                <a class="dropdown-item" href="developer_tools.html">Developer tools</a>
+                                <a class="dropdown-item" href="code_validators.html">Code Validotors</a>
+                                <a class="dropdown-item" href="online_code_environments.html">Online Code Environments</a>
+                                <a class="dropdown-item" href="developer_communities.html">Developer Communities</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Career</a>
+                            <a class="nav-link" href="career.html">Career</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                 aria-expanded="false">More
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">About</a>
-
-                                <a class="dropdown-item" href="#">Contact</a>
+                                <a class="dropdown-item" href="about.html">About</a>
+                                <a class="dropdown-item" href="tech_updated.html">Tech Updates</a>
+                                <a class="dropdown-item" href="contact.html">Contact</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Feedback</a>
+                                <a class="dropdown-item" href="feedback.html">Feedback</a>
                             </div>
                         </li>
                     </ul>
@@ -91,13 +92,52 @@
                                     class="mglass">&#9906;</span></label>
                         </form>
                     </div>
-                    <a class="signin  my-2 my-sm-0" type="submit">Sign In</a>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
+                    <a class="signin  my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModal">Sign In</a>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModals">Sign Up</button>
 
                 </div>
             </nav>
         </div>
     </header>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button  class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#exampleModals" data-dismiss="modal">Sign Up</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalsLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalsLabel">Sign Up</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary"  type="submit" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Sign In</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     <section class="banner-one">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -110,7 +150,7 @@
                 <img src="assets/images/blog-banner1.jpg" class="img-fluid"  alt="front-end">
               </div>
               <div class="carousel-item">
-                <img src="assets/images/blog-banner1.jpg" class="img-fluid"  alt="front-end">
+                <img src="assets/images/blog-banner2.jpg" class="img-fluid"  alt="front-end">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
@@ -125,7 +165,7 @@
     </section>
 
     <section class="featured-blogs">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12">
                     <h1>Featured Blogs</h1>
@@ -143,69 +183,62 @@
 
                         <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
                             <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 box-1">
+                                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 box-1">
                                     <img src="assets/images/frontend-developer-img.jpg" alt=""
                                         class="front-end-career img-fluid">
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                                     <h4>Scope of Front End </h4>
-                                    <p>Text will update soon, Text will update soon, Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon. Text will update
-                                        soon, Text will update soon.</p>
-                                    <div class="normal-btn">
-                                        <a href="">Read More</a>
-                                    </div>
+                                    <p>High demand, strong salaries, and flexibility make front-end development a great choice by  taking a new path in your professional life.</p>
+                                  
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 box-1">
+                            <div class="row mt-3">
+                                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 box-1">
                                     <img src="assets/images/frontend-roadmap.jpg" alt="" class="front-end img-fluid">
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                                     <h4>Front End Road Map</h4>
-                                    <p>Text will update soon, Text will update soon, Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon. Text will update
-                                        soon, Text will update soon.</p>
-                                    <div class="normal-btn">
-                                        <a href="">Read More</a>
-                                    </div>
+                                    <p>IT involves building the User Interface of a website or a web application, that determines how every part of a website will look and how it will work.</p>
+                                    
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 box-2">
+                            <div class="row  box-2">
+                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <img src="assets/images/frameworks.jpg" alt="" class="front-end img-fluid">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <h4>Frameworks</h4>
-                                    <p>Text will update soon, Text will update soo.</p>
-                                    <div class="normal-btn">
-                                        <a href="">Read More</a>
+                                    <p>Check out the most useful frameworks used in now a days.</p>
+                                    <div class="normal-btn hm-rgt">
+                                        <a href="frameworks.html">Read More</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 box-2">
+                            <div class="row  box-2">
+                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
                                     <img src="assets/images/libraries.jpg" alt="" class="front-end img-fluid">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <h4>Libraries</h4>
-                                    <p>Text will update soon, Text will update soo.</p>
-                                    <div class="normal-btn">
-                                        <a href="">Read More</a>
+                                    <p>Check out the most best libraries used in now a days.</p>
+                                    <div class="normal-btn hm-rgt">
+                                        <a href="libraries.html">Read More</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row  box-2">
                                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 box-2">
                                     <img src="assets/images/hostings.jpg" alt="" class="front-end img-fluid">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <h4>Hosting</h4>
-                                    <p>Text will update soon, Text will update soo.</p>
-                                    <div class="normal-btn">
-                                        <a href="">Read More</a>
+                                    <p>Check out the most popular hosting providers for delopy the work.</p>
+                                    <div class="normal-btn hm-rgt">
+                                        <a href="hosting.html">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -220,19 +253,17 @@
     <section class="latest-post">
         <div class="container">
             <div class="row">
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12 ">
-                    <h1>Latest Blogs</h1>
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12 box-5">
+                    <h1 class="wow slideInLeft" data-wow-duration="2s">Latest Blogs</h1>
                     <div class="row box-3">
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                             <img src="assets/images/html-img.jpg" class="img-fluid" alt="html 5">
                             <div class="card">
                                 <div class="card-block">
                                     <h3>HTML</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
-                                    <a class="custom-btn btn-1"><span>Read More</span></a>
+                                    <p>HTML stands for HyperText Markup Language. It is used to design web pages using the markup language. HTML is the combination of Hypertext and Markup language.
+                                         Hypertext defines the link between the web pages and markup language defines the text document within the tag that define the structure of web pages.</p>
+                                    <a class="custom-btn btn-1" href="html5.html"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
@@ -241,11 +272,10 @@
                             <div class="card">
                                 <div class="card-block">
                                     <h3>CSS</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
-                                    <a class="custom-btn btn-1"><span>Read More</span></a>
+                                    <p>CSS (Cascading Style Sheets)is used to apply styles to web pages. Cascading Style Sheets are fondly referred to as CSS. It is used to make web pages presentable. 
+                                        The reason for using this is to simplify the process of making web pages presentable. It allows you to apply styles on web pages. More importantly,
+                                         it enables you to do this independently of the HTML that makes up each web page.</p>
+                                    <a class="custom-btn btn-1" href="css.html"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
@@ -254,11 +284,12 @@
                             <div class="card">
                                 <div class="card-block">
                                     <h3>SASS</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
-                                    <a class="custom-btn btn-1"><span>Read More</span></a>
+                                    <p>Sass( Syntactically Awesome Style Sheet) is a CSS pre-processor that is fully compatible with every version of CSS. It is a scripting language (like JS) that is compiled to CSS in the browser.
+                                        It provides additional benefits over normal CSS styling that enhances the way of writing CSS styles. Since browsers are unable to read a SASS file, so, 
+                                        we are required to use a sass compiler that converts its file to a normal CSS file. 
+                                        It also helps reduces the overall length of the code by discarding the repeated CSS code and therefore saves time. 
+                                        It was designed by Hampton Catlin and developed by Natalie Weizenbaum in 2006.</p>
+                                    <a class="custom-btn btn-1" href="sass_css.html"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
@@ -266,12 +297,11 @@
                             <img src="assets/images/bootsrap.jpg" class="img-fluid" alt="css 3">
                             <div class="card">
                                 <div class="card-block">
-                                    <h3>BOOTSTAP</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
-                                    <a class="custom-btn btn-1"><span>Read More</span></a>
+                                    <h3>BOOTSTRAP</h3>
+                                    <p>Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. It is the most popular HTML, CSS, and JavaScript framework for 
+                                        developing responsive, mobile-first websites. Nowadays, the websites are perfect for all browsers (IE, Firefox, and Chrome) and for all sizes of screens (Desktop, Tablets, Phablets, and Phones). 
+                                        All thanks to Bootstrap developers- Mark Otto and Jacob Thornton of Twitter, though it was later declared to be an open-source project.</p>
+                                    <a class="custom-btn btn-1" href="bootstrap_css.html"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
@@ -280,75 +310,65 @@
                             <div class="card">
                                 <div class="card-block">
                                     <h3>JAVASCRIPT</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
+                                    <p>JavaScript (JS) is the world’s most popular lightweight, interpreted compiled programming language. It is also known as a scripting language for web pages.
+                                         It can be used for Client-side as well as Server-side developments.<p>
                                     <a class="custom-btn btn-1"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            <img src="assets/images/javascript-img.jpg" class="img-fluid" alt="css 3">
+                            <img src="assets/images/react.jpg" class="img-fluid" alt="css 3">
                             <div class="card">
                                 <div class="card-block">
                                     <h3>REACT</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
+                                    <p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It's 'V' in MVC. ReactJS is an open-source, component-based front-end library responsible only for the view layer of the application. 
+                                        It is maintained by Facebook.</p>
                                     <a class="custom-btn btn-1"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            <img src="assets/images/javascript-img.jpg" class="img-fluid" alt="css 3">
+                            <img src="assets/images/angular.jpg" class="img-fluid" alt="css 3">
                             <div class="card">
                                 <div class="card-block">
                                     <h3>ANJULAR</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
+                                    <p>AngularJS was developed in 2008-2009 by Misko Hevery and Adam Abrons and is now maintained by Google. AngularJS is a Javascript open-source front-end framework that is mainly used to develop single-page web applications(SPAs). 
+                                        It is a continuously growing and expanding framework which provides better ways for developing web applications.</p>
                                     <a class="custom-btn btn-1"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            <img src="assets/images/javascript-img.jpg" class="img-fluid" alt="css 3">
+                            <img src="assets/images/vue.jpg" class="img-fluid" alt="css 3">
                             <div class="card">
                                 <div class="card-block">
                                     <h3>VUE</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
+                                    <p>AngularJS was developed in 2008-2009 by Misko Hevery and Adam Abrons and is now maintained by Google. AngularJS is a Javascript open-source front-end framework that is mainly used to develop single-page web applications(SPAs). It is a continuously growing and expanding framework which provides better 
+                                        ways for developing web applications..</p>
                                     <a class="custom-btn btn-1"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            <img src="assets/images/javascript-img.jpg" class="img-fluid" alt="css 3">
+                            <img src="assets/images/git.jpg" class="img-fluid" alt="css 3">
                             <div class="card">
                                 <div class="card-block">
                                     <h3>GIT</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
+                                    <p>Github basically is a for-profit company owned by Microsoft, which hosts Git repositories online. It helps users share their git repository online, with other users, or access it remotely. 
+                                        You can also host a public repository for free on Github. 
+
+                                       </p>
                                     <a class="custom-btn btn-1"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            <img src="assets/images/javascript-img.jpg" class="img-fluid" alt="css 3">
+                            <img src="assets/images/vscode.jpg" class="img-fluid" alt="css 3">
                             <div class="card">
                                 <div class="card-block">
                                     <h3>VISUAL STUDIO</h3>
-                                    <p>Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon. Text will update soon, Text will update soon.
-                                        Text will update soon, Text will update soon. Text will update soon, Text will
-                                        update soon.</p>
+                                    <p>Visual Studio is an Integrated Development Environment(IDE) developed by Microsoft to develop GUI(Graphical User Interface), console, Web applications, web apps, mobile apps, cloud, and web services, etc. With the help of this IDE, you can create managed code as well as native code.  \
+                                        It uses the various platforms of Microsoft software development software like Windows store, Microsoft Silverlight, and Windows API, etc.</p>
                                     <a class="custom-btn btn-1"><span>Read More</span></a>
                                 </div>
                             </div>
@@ -367,9 +387,9 @@
                                         </div>
                                         <div class="popular-details">
                                             <h5>Common Assets</h5>
-                                            <p>Text will update soon, Text will update soon. Text will update soon</p>
-                                            <div class="normal-btn">
-                                                <a href="">Read More</a>
+                                            <p>Find out the most common assets used in front-end development.</p>
+                                            <div class="normal-btn hm-rgt">
+                                                <a href="common_web_assets.html">Read More</a>
                                             </div>
                                         </div>                                     
                                     </div>
@@ -379,9 +399,9 @@
                                     </div>
                                     <div class="popular-details">
                                         <h5>Code Editors</h5>
-                                        <p>Text will update soon, Text will update soon. Text will update soon</p>
-                                        <div class="normal-btn">
-                                            <a href="">Read More</a>
+                                        <p>The most recommended code editors help to build and debug the app.</p>
+                                        <div class="normal-btn hm-rgt">
+                                            <a href="code_editors.html">Read More</a>
                                         </div>
                                     </div>              
                                     </div>
@@ -391,9 +411,9 @@
                                     </div>
                                      <div class="popular-details">
                                     <h5>Developer Tools</h5>
-                                    <p>Text will update soon, Text will update soon. Text will update soon</p>
-                                    <div class="normal-btn">
-                                        <a href="">Read More</a>
+                                    <p>Learn the advantage and uses of developer tools make development more easy.</p>
+                                    <div class="normal-btn hm-rgt">
+                                        <a href="developer_tools.html">Read More</a>
                                     </div>
                                 </div>                            
                                     </div>
@@ -403,9 +423,9 @@
                                   </div>
                             <div class="popular-details">
                                 <h5>Code Validators</h5>
-                                <p>Text will update soon, Text will update soon. Text will update soon</p>
-                                <div class="normal-btn">
-                                    <a href="">Read More</a>
+                                <p>Make sure the code is verified by the external source of validation before delopy.</p>
+                                <div class="normal-btn hm-rgt">
+                                    <a href="code_validators.html">Read More</a>
                                 </div>
                             </div>
                                     </div>
@@ -415,9 +435,9 @@
                                     </div>
                         <div class="popular-details">
                             <h5>Online Code Environments</h5>
-                            <p>Text will update soon, Text will update soon. Text will update soon</p>
-                            <div class="normal-btn">
-                                <a href="">Read More</a>
+                            <p>Pratice and try the coding through online code editors which help live output experience.</p>
+                            <div class="normal-btn hm-rgt">
+                                <a href="online_code_environments.html">Read More</a>
                             </div>
                         </div>                     
                                     </div>
@@ -427,9 +447,9 @@
                                     </div>
                                     <div class="popular-details">
                                     <h5>Version Control System</h5>
-                                    <p>Text will update soon, Text will update soon. Text will update soon</p>
-                                    <div class="normal-btn">
-                                        <a href="">Read More</a>
+                                    <p>Check out the proper idea of a version control system for a professional career.</p>
+                                    <div class="normal-btn hm-rgtb ">
+                                        <a href="version_control_system.html">Read More</a>
                                     </div>
                                     </div>
                                     </div>
@@ -463,7 +483,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <h1>Things on Mind</h1>
+                <h1>Notification !</h1>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="grid">
@@ -471,7 +491,7 @@
 						<img src="assets/images/bg1.jpg" class="img-fluid" alt="img02"/>
 						<figcaption>
 							<h2><span>NO Comfortable Zone</span></h2>
-							<p>Keep Learining till last lap.</p>
+							<p>Keep Learining pratice till last lap.</p>
 					
 						</figcaption>			
 					</figure>
@@ -483,7 +503,7 @@
 						<img src="assets/images/bg2.jpg" class="img-fluid" alt="img02"/>
 						<figcaption>
 							<h2><span>Think Bigger</span></h2>
-							<p>Programmers should think outside the box</p>
+							<p>Problem solving on demand of best methoods</p>
 			
 						</figcaption>			
 					</figure>
@@ -494,8 +514,8 @@
 					<figure class="effect-bubba">
 						<img src="assets/images/bg3.jpg" class="img-fluid" alt="img02"/>
 						<figcaption>
-							<h2><span>Keep  Work Ethics</span></h2>
-							<p>Never break the work ethics in professional carrer</p>
+							<h2><span>Keep Work Ethics</span></h2>
+							<p>Keep the atmosphere of smart work and ethics</p>
 						
 						</figcaption>			
 					</figure>
@@ -504,22 +524,80 @@
         </div>
     </div>
    </section>
+   <section class="trending-technologies">
+     <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                <h1>Tech Updates</h1>
+                <div class="row ">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="card">
+                            <div class="card-block">
+                                <h3>JavaScript<br> (Yep, it still rocks.)</h3>
+                                <p>JavaScript is still the universal and the most popular programming language for website creation. Statista reports that, as of 2022, 
+                                    JavaScript is at the top of the list of most 
+                                    frequently used web technologies worldwide with 65% of respondents stating they've used it in their work. Why is that so?</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="card">
+                            <div class="card-block">
+                                <h3>React - One of the Most Used Web Frameworks</h3>
+                                <p>React is a widely popular open-source tool used for frontend projects that are completely based on reusable components.
+                                     Yes, this tool allows you to use components multiple times within a project, which increases its productivity.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="card">
+                            <div class="card-block">
+                                <h3>Vue.js  -  the Progressive JS Framework</h3>
+                                <p>Vue.js is a Progressive JavaScript Framework that has quickly gained popularity in the web development community.
+
+                                    Vue.js is a versatile framework that can be used for technical web app that require rendering a vast amount of data for the user.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         </div>
+       </div>
+    </div>
+   </section>
+
+
+   </section>
 
    <footer>
     <div class="container">
         <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                <h3>WEB NOTES</h3>
-                <p>Text will update soon, Text will Update soon, Text will update soon, Text will Update soon, Text will update soon, Text will Update soon</p>
+                <h3>WEB NOTEZ</h3>
+                <p>The blog is mainly about all assets for Front End web development.  It is for people who want to learn about these topics and make an idea about each keyword under Front end development.</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                <h3>RECENT BLOGS</h3>
+                <p><a href="libraries.html">LIBRARIES</a></p>
+                <p><a href="frameworks.html">FRAMEWORKS</a></p>
+                <p><a href="common_web_assets.html">COMMON ASSETS</a></p>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                 <h3>CATEGORIES</h3>
-                <p><a></a></p>
+                <p><a href="html5.html">HTML</a></p>
+                <p><a href="css.html">CSS</a></p>
+                <p><a href="javascript.html">JAVASCIPT</a></p>
+             
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                <h3>POPULAR BLOGS</h3>
-                <p><a></a></p>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-12 foot-bottom">
+                <p>&#169; 2022 Webnotes; All right received <br>
+                    <a href="privacy_policy.html">Privacy Policy</a> <a href="sitemap.html"> Sitemap</a></p>
             </div>
+
         </div>
     </div>
    </footer>
@@ -531,6 +609,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
     </script>
+  <script src="assets/js/script.js"></script>
+  <script>
+  new WOW().init();
+  </script>
 </body>
 
 </html>
