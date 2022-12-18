@@ -94,6 +94,9 @@ a.custom-btn{
     width:100%;
     transition:800ms ease all;
   }
+  input.form-control.max {
+    width: 30%;
+}
   .form-control {
     border: 1px solid #ffe45b56;
     background-size: 0 2px, 100% 1px;
@@ -106,7 +109,7 @@ a.custom-btn{
     text-align: center;
     margin: auto;
     margin-bottom: 15px;
-    width: 500px;
+    width: 100%;
     border-radius: 50px;
 }
 .form-control:focus {
@@ -351,7 +354,7 @@ footer p {
 /*Home*/
 section.featured-blogs {
     padding: 50px 10px;
-    background: #f8f8f8;
+    background: #f9ffcb;
 }
 section.featured-blogs  h1{
     font-size: 36px;
@@ -387,6 +390,7 @@ section.featured-blogs .box-1 {
 }
 section.latest-post {
     padding: 50px 0px;
+    background: #fff;
 }
 section.latest-post h1{
     font-size: 36px;
@@ -446,7 +450,7 @@ section.latest-post h1:after{
 }
 section.work-ethics{
     padding: 50px 0px;
-    background: #f8f8f8;
+    background: #ffffff;
 }
 section.work-ethics h1{
     font-size: 36px;
@@ -475,7 +479,6 @@ section.work-ethics h1:after{
 	text-align: center;
 }
 
-/* Common style */
 .grid figure {
     position: relative;
     float: left;
@@ -620,6 +623,42 @@ section.parralx {
 section.parralx h1{
     color: #fff;
 }
+.popular-details p {
+    line-height: 24px;
+}
+.box-2 p {
+    line-height: 24px;
+}
+.box-1 p {
+    line-height: 24px;
+}
+section.trending  {
+    padding: 50px 0px;
+    background: #fff;
+}
+.tending-box {
+    background: #f9ffcb;
+    padding: 20px;
+    text-align: center;
+}
+section.trending h1 {
+    font-size: 36px;
+    display: block;
+    padding-bottom: 8px;
+    color: #28a745;
+    position: relative;
+    font-family: lato;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+section.trending h1:after {
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid #A0A0A0;
+}
 section.trending-technologies  {
     padding: 50px 10px;
     background: #f8f8f8;
@@ -659,7 +698,9 @@ section.trending-technologies h3 {
 .normal-btn.hm-rgt {
     margin-top: -10px;
 }
-
+img.front-end.third {
+    border-radius: 50%;
+}
 
 /*inner-page*/
 .breadcrumb{

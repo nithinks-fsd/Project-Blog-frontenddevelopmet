@@ -92,13 +92,72 @@
                                     class="mglass">&#9906;</span></label>
                         </form>
                     </div>
-                    <a class="signin  my-2 my-sm-0" type="submit">Sign In</a>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
+                    <a class="signin  my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModal">Sign In</a>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModals">Sign Up</button>
 
                 </div>
             </nav>
         </div>
     </header>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+              
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form action="" method="">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Password">
+                      </div>
+                      </form>
+              
+            </div>
+            <div class="modal-footer">
+              <button  class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#exampleModals" data-dismiss="modal">Sign Up</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalsLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalsLabel">Sign Up</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form action="" method="">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Email">
+                      </div>
+      
+                      <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Password">
+                      </div>
+      
+                      <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Confirm Password">
+                      </div>
+                      </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary"  type="submit" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Sign In</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <section class="banner-inner">
         <img src="assets/images/innerbanner.jpg" class="inner-banner" alt="img-fluid">
     </section>
@@ -109,13 +168,13 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <h3>WEB NOTEZ</h3>
-                    <p>Text will update soon, Text will Update soon, Text will update soon, Text will Update soon, Text will update soon, Text will Update soon</p>
+                    <p>The blog is mainly about all assets for Front End web development.  It is for people who want to learn about these topics and make an idea about each keyword under Front end development.</p>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <h3>RECENT BLOGS</h3>
                     <p><a href="libraries.html">LIBRARIES</a></p>
                     <p><a href="frameworks.html">FRAMEWORKS</a></p>
-                    <p><a href="common_web_assets.html">COMMON WEB ASSETS</a></p>
+                    <p><a href="common_web_assets.html">COMMON ASSETS</a></p>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <h3>CATEGORIES</h3>
