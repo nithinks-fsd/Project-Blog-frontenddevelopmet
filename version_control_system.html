@@ -37,10 +37,9 @@
 
                 <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                 aria-expanded="false">Web Front End
@@ -50,30 +49,33 @@
                                 <a class="dropdown-item" href="css.html">CSS</a>
                                 <a class="dropdown-item" href="javascript.html">JAVASCIPT</a>
                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="libraries.html">Libraries</a>
+                                <a class="dropdown-item" href="frameworks.html">Frameworks</a>
                                 <a class="dropdown-item" href="UI_UX.html">UI/UX</a>
                             </div>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                 aria-expanded="false">Assets
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="common_web_assets.html">Common Web Assets</a>
                                 <a class="dropdown-item" href="code_editors.html">Code Editors</a>
-                                <a class="dropdown-item" href="version_control_system.html">Version Control System</a>
+                                <a class="dropdown-item active" href="version_control_system.html">Version Control System</a>
                                 <a class="dropdown-item" href="developer_tools.html">Developer tools</a>
                                 <a class="dropdown-item" href="code_validators.html">Code Validotors</a>
                                 <a class="dropdown-item" href="online_code_environments.html">Online Code Environments</a>
                                 <a class="dropdown-item" href="developer_communities.html">Developer Communities</a>
+                                <a class="dropdown-item" href="hosting.html">Hosting</a>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link" href="projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="career.html">Career</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                 aria-expanded="false">More
                             </a>
@@ -86,7 +88,6 @@
                             </div>
                         </li>
                     </ul>
-
                     <div class="search-container">
                         <form action="" method="get">
                             <input class="search" id="searchleft" type="search" name="q" placeholder="Search">
@@ -174,7 +175,7 @@
             </nav>
         </div>
     </section>
-    <section class="inner-page html">
+    <section class="inner-page assets">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -182,25 +183,52 @@
                             <div class="card">
                                 <div class="card-block">
                                     <h2>Version Control System</h2>
-                                    <p>Even if you’re freelancing, but especially if you're part of a team,
+                                    <p>Even if you're freelancing, but especially if you're part of a team,
                                          you need a reliable version control system to keep track of all the 
                                          changes you make to your code over time. Trust us, at some point you'll
                                           need to check or even revert to an earlier version of your code base!</p>
-                                    <p>Git is our top choice for version control systems. It’s by far the most well-supported and frequently-chosen system nowadays. Skillcrush’s very own Git expert Ann explains: “Git is a decentralized version control system which allows everyone on your team to work with the same files in the same project simultaneously without worrying that you might be overwriting someone’s work. It gives developers more freedom to work whenever and wherever since everyone has a local copy of the code.” Just what every developer needs! (Wondering about GitHub?
+                                    <p>Git is our top choice for version control systems. It's by far the most well-supported and frequently-chosen system nowadays. Skillcrush's very own Git expert Ann explains: “Git is a decentralized version control system which allows everyone on your team to work with the same files in the same project simultaneously without worrying that you might be overwriting someone’s work. It gives developers more freedom to work whenever and wherever since everyone has a local copy of the code.” Just what every developer needs! (Wondering about GitHub?
                                              It's a place where you can store your Git files to share and collaborate with other developers - even better!)</p>
-                                    <p>Or, if you’re considering working with an enterprise-level company that uses a centralized version control system, you can opt for our runner-up: Apache Subversion. Subversion, often abbreviated to SVN, stores code on one central server, which means it can be simpler to understand than Git but server problems could potentially cause speed and access problems.</p>
+                                    <p>Or, if you're considering working with an enterprise-level company that uses a centralized version control system, you can opt for our runner-up: Apache Subversion. Subversion, often abbreviated to SVN, stores code on one central server, which means it can be simpler to understand than Git but server problems could potentially cause speed and access problems.</p>
                                         
-                                   <h2>Most Recommented</h2> 
+                                   <h3>Most Recommented</h3> 
 
-                                   <h3>Other Version Control System</h3>
+                                   <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="card-block">
+                                               <a href="https://git-scm.com/" target="_blank"> <img src="assets/images/version-control/git.jpg" class="img-fluid"></a>
+                                            <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="card-block">
+                                               <a href="https://aws.amazon.com/codecommit/" target="_blank"> <img src="assets/images/version-control/aws.jpg" class="img-fluid"></a>
+                                            <p>AWS CodeCommit is a version control service hosted by Amazon Web Services that you can use to privately store and manage assets  in the cloud.  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="card-block">
+                                               <a href="https://aws.amazon.com/codecommit/" target="_blank"> <img src="assets/images/version-control/helix.jpg" class="img-fluid"></a>
+                                            <p>Helix Core enables businesses to monitor and manage changes across videos, binary files, IPs, codes and other digital assets via a unified portal. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+
+                                  
 
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-    </section
-
+            </section>
 
 
     <footer>

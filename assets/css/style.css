@@ -848,6 +848,22 @@ transition-timing-function: ease-in-out;
 transition-duration: 1s;
 border: 1px solid #ffe35b;
 }
+section.inner-page.career .card .card{
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    }
+section.inner-page.assets .card .card{
+        transition-timing-function: ease-in-out;
+        transition-duration: 1s;
+        }
+        
+section.inner-page.assets .card .card:hover{
+box-shadow: none;
+transition-timing-function: ease-in-out;
+transition-duration: 1s;
+border: 1px solid #ffe35b;
+}
+
 
 
 

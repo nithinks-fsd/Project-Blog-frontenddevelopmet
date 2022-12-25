@@ -26,8 +26,7 @@
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" class="logo-img"
-                        alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" class="logo-img" alt="logo"></a>
                 <button class="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbarsExample05"
                     aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
@@ -37,7 +36,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
 
@@ -50,10 +49,12 @@
                                 <a class="dropdown-item" href="css.html">CSS</a>
                                 <a class="dropdown-item" href="javascript.html">JAVASCIPT</a>
                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="libraries.html">Libraries</a>
+                                <a class="dropdown-item" href="frameworks.html">Frameworks</a>
                                 <a class="dropdown-item" href="UI_UX.html">UI/UX</a>
                             </div>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                 aria-expanded="false">Assets
                             </a>
@@ -63,18 +64,18 @@
                                 <a class="dropdown-item" href="version_control_system.html">Version Control System</a>
                                 <a class="dropdown-item" href="developer_tools.html">Developer tools</a>
                                 <a class="dropdown-item" href="code_validators.html">Code Validotors</a>
-                                <a class="dropdown-item" href="online_code_environments.html">Online Code
-                                    Environments</a>
+                                <a class="dropdown-item active" href="online_code_environments.html">Online Code Environments</a>
                                 <a class="dropdown-item" href="developer_communities.html">Developer Communities</a>
+                                <a class="dropdown-item" href="hosting.html">Hosting</a>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link" href="projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="career.html">Career</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                 aria-expanded="false">More
                             </a>
@@ -95,10 +96,8 @@
                                     class="mglass">&#9906;</span></label>
                         </form>
                     </div>
-                    <a class="signin  my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModal">Sign
-                        In</a>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal"
-                        data-target="#exampleModals">Sign Up</button>
+                    <a class="signin  my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModal">Sign In</a>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModals">Sign Up</button>
 
                 </div>
             </nav>
@@ -179,22 +178,52 @@
             </nav>
         </div>
     </section>
-    <section class="inner-page commom-assets">
+    <section class="inner-page assets">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <h1 class="wow slideInLeft" data-wow-duration="2s">Online Coding Environments</h1>
+                    <h1 class="wow slideInLeft" data-wow-duration="2s">Popular Blog</h1>
                     <div class="card">
                         <div class="card-block">
-                            <h2>Code Validators</h2>
+                            <h2>Online Coding Environments</h2>
                             <p>A place to try out the most important front-end skills as you're developing them (pun intended!) can really speed up your learning, and online coding environments are a great place for that kind of experimentation.</p>
                             <p>Coding environments are sites that allow you to write code in an online editor and see the results immediately right next to your code. These platforms are a fast and useful way for developers to experiment and learn from other developers in the same environment.</p>
                             <p>CodePen is the most diverse online coding environment in that you can write HTML, CSS, and JavaScript, and even try out those libraries and frameworks you were just reading about. Plus it features a strong community where you can share you work and see what others are trying out. Or, 
                                 if you're focused on JavaScript, JSBin is an online coding environment made especially for that language.</p>
 
-                            <h2>Most Recommended</h2>
+                            <h3>Most Recommended</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-block">
+                                           <a href="https://aws.amazon.com/cloud9/" target="_blank"> <img src="assets/images/online-code-environment/cloud9.jpg" class="img-fluid"></a>
+                                           <p>When Amazon bought the Cloud9 IDE in 2016, it was already a firm favorite with developers. Full integration with Amazon Web Services makes it arguably the most powerful and extendable online development platform currently available. The online IDE combines a code editor with a terminal and powerful debugging tools.</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <h3>Other Code Validators</h3>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-block">
+                                           <a href="https://codepen.io/" target="_blank"> <img src="assets/images/online-code-environment/codepen.jpg" class="img-fluid"></a>
+                                           <p>If you want to make beautiful looking things for the web, Codepen.io is the place for you. The IDE operates like a sketchbook for all kinds of front end web development. A massive community of all skill levels continuously push the limit of what is possible in the browser.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-block">
+                                           <a href="https://www.codecademy.com/" target="_blank"> <img src="assets/images/online-code-environment/codecademy.jpg" class="img-fluid"></a>
+                                           <p>Codecademy combines an online IDE with lessons to teach coding from beginner to expert. Their diverse catalog covers popular languages including Python, JavaScript, CSS, HTML, and Ruby.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+
+                                </div>
+
+                        
 
                         </div>
                     </div>
