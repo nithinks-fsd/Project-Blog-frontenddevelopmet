@@ -16,7 +16,8 @@
     <script src="assets/js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css">
 
 </head>
@@ -35,7 +36,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
 
@@ -48,6 +49,8 @@
                                 <a class="dropdown-item" href="css.html">CSS</a>
                                 <a class="dropdown-item" href="javascript.html">JAVASCIPT</a>
                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="libraries.html">Libraries</a>
+                                <a class="dropdown-item" href="frameworks.html">Frameworks</a>
                                 <a class="dropdown-item" href="UI_UX.html">UI/UX</a>
                             </div>
                         </li>
@@ -63,6 +66,7 @@
                                 <a class="dropdown-item" href="code_validators.html">Code Validotors</a>
                                 <a class="dropdown-item" href="online_code_environments.html">Online Code Environments</a>
                                 <a class="dropdown-item" href="developer_communities.html">Developer Communities</a>
+                                <a class="dropdown-item" href="hosting.html">Hosting</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -71,16 +75,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="career.html">Career</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                 aria-expanded="false">More
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="about.html">About</a>
-                                <a class="dropdown-item" href="tech_updated.html">Tech Updates</a>
+                                <a class="dropdown-item " href="tech_updated.html">Tech Updates</a>
                                 <a class="dropdown-item" href="contact.html">Contact</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="feedback.html">Feedback</a>
+                                <a class="dropdown-item active" href="feedback.html">Feedback</a>
                             </div>
                         </li>
                     </ul>
@@ -101,63 +105,65 @@
     </header>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
-              
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="password" placeholder="Password">
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#exampleModals"
+                        data-dismiss="modal">Sign Up</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
             </div>
-            <div class="modal-body">
-                <form action="" method="">
-                    <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Email">
-                      </div>
-                      <div class="form-group">
-                        <input class="form-control" type="password" placeholder="Password">
-                      </div>
-                      </form>
-              
-            </div>
-            <div class="modal-footer">
-              <button  class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#exampleModals" data-dismiss="modal">Sign Up</button>
-              <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalsLabel" aria-hidden="true">
+    </div>
+    <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalsLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalsLabel">Sign Up</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalsLabel">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="password" placeholder="Password">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="password" placeholder="Confirm Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#exampleModal"
+                        data-dismiss="modal">Sign In</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
             </div>
-            <div class="modal-body">
-                <form action="" method="">
-                    <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Email">
-                      </div>
-      
-                      <div class="form-group">
-                        <input class="form-control" type="password" placeholder="Password">
-                      </div>
-      
-                      <div class="form-group">
-                        <input class="form-control" type="password" placeholder="Confirm Password">
-                      </div>
-                      </form>
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-secondary"  type="submit" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Sign In</button>
-              <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
     <section class="banner-inner">
         <img src="assets/images/innerbanner.jpg" class="inner-banner" alt="img-fluid">
     </section>
@@ -177,15 +183,50 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <h1 class="wow slideInLeft" data-wow-duration="2s">Common Blogs</h1>
-                            <div class="card">
-                                <div class="card-block">
-                                    <h2>Feedback<h2>
-                                    <p></p>
+                    <div class="card">
+                        <div class="card-block">
+                            <h2>Feedback</h2>
+                            <p>Submit your feedback of the blog website</p>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="assets/images/feedback.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <form action="" method="POST">
+
+                                        <div class="form-group">
+                                            <input type="text" name="name" class="form-control" required=""
+                                                placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" class="form-control" required=""
+                                                placeholder=" E-mail address ">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" required=""
+                                                placeholder="Contact Number" name="phone">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" required="" name="requirement"
+                                                placeholder="Requirement">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <textarea name="message" required="" class="form-control" rows="6"
+                                                placeholder="Message"></textarea>
+                                        </div>
+                                        <button type="submit" value="Send" class="custom-btn btn-1">Submit</button>
+
+                                    </form>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        </div>
     </section>
 
 
@@ -195,7 +236,8 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <h3>WEB NOTEZ</h3>
-                    <p>The blog is mainly about all assets for Front End web development.  It is for people who want to learn about these topics and make an idea about each keyword under Front end development.</p>
+                    <p>The blog is mainly about all assets for Front End web development. It is for people who want to
+                        learn about these topics and make an idea about each keyword under Front end development.</p>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <h3>RECENT BLOGS</h3>
@@ -208,7 +250,7 @@
                     <p><a href="html5.html">HTML</a></p>
                     <p><a href="css.html">CSS</a></p>
                     <p><a href="javascript.html">JAVASCIPT</a></p>
-                 
+
                 </div>
             </div>
             <div class="row">
@@ -216,11 +258,11 @@
                     <p>&#169; 2022 Webnotes; All right received <br>
                         <a href="privacy_policy.html">Privacy Policy</a> <a href="sitemap.html"> Sitemap</a></p>
                 </div>
-    
+
             </div>
         </div>
-       </footer>
-      
+    </footer>
+
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -230,8 +272,8 @@
     </script>
     <script src="assets/js/script.js"></script>
     <script>
-     new WOW().init();
-     </script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
