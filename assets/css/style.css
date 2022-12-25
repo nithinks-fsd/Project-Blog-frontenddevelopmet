@@ -481,7 +481,8 @@ section.latest-post h1:after{
     box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     background-color: #fff;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    border: none;
 }
 .card-block{
     padding: 20px;

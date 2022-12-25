@@ -27,7 +27,8 @@
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" class="logo-img" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" class="logo-img"
+                        alt="logo"></a>
                 <button class="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbarsExample05"
                     aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
@@ -37,19 +38,21 @@
 
                 <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
 
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                 aria-expanded="false">Web Front End
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="html5.html">HTML</a>
                                 <a class="dropdown-item" href="css.html">CSS</a>
-                                <a class="dropdown-item" href="javascript.html">JAVASCIPT</a>
+                                <a class="dropdown-item" href="javascript.html">JAVASCRIPT</a>
                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item active" href="libraries.html">Libraries</a>
+                                <a class="dropdown-item" href="frameworks.html">Frameworks</a>
                                 <a class="dropdown-item" href="UI_UX.html">UI/UX</a>
                             </div>
                         </li>
@@ -63,8 +66,10 @@
                                 <a class="dropdown-item" href="version_control_system.html">Version Control System</a>
                                 <a class="dropdown-item" href="developer_tools.html">Developer tools</a>
                                 <a class="dropdown-item" href="code_validators.html">Code Validotors</a>
-                                <a class="dropdown-item" href="online_code_environments.html">Online Code Environments</a>
+                                <a class="dropdown-item" href="online_code_environments.html">Online Code
+                                    Environments</a>
                                 <a class="dropdown-item" href="developer_communities.html">Developer Communities</a>
+                                <a class="dropdown-item" href="hosting.html">Hosting</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -94,8 +99,10 @@
                                     class="mglass">&#9906;</span></label>
                         </form>
                     </div>
-                    <a class="signin  my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModal">Sign In</a>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModals">Sign Up</button>
+                    <a class="signin  my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModal">Sign
+                        In</a>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal"
+                        data-target="#exampleModals">Sign Up</button>
 
                 </div>
             </nav>
@@ -103,63 +110,65 @@
     </header>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
-              
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="password" placeholder="Password">
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#exampleModals"
+                        data-dismiss="modal">Sign Up</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
             </div>
-            <div class="modal-body">
-                <form action="" method="">
-                    <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Email">
-                      </div>
-                      <div class="form-group">
-                        <input class="form-control" type="password" placeholder="Password">
-                      </div>
-                      </form>
-              
-            </div>
-            <div class="modal-footer">
-              <button  class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#exampleModals" data-dismiss="modal">Sign Up</button>
-              <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalsLabel" aria-hidden="true">
+    </div>
+    <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalsLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalsLabel">Sign Up</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalsLabel">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="password" placeholder="Password">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="password" placeholder="Confirm Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#exampleModal"
+                        data-dismiss="modal">Sign In</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
             </div>
-            <div class="modal-body">
-                <form action="" method="">
-                    <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Email">
-                      </div>
-      
-                      <div class="form-group">
-                        <input class="form-control" type="password" placeholder="Password">
-                      </div>
-      
-                      <div class="form-group">
-                        <input class="form-control" type="password" placeholder="Confirm Password">
-                      </div>
-                      </form>
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-secondary"  type="submit" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Sign In</button>
-              <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
     <section class="banner-inner">
         <img src="assets/images/innerbanner.jpg" class="inner-banner" alt="img-fluid">
     </section>
@@ -168,8 +177,8 @@
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a>Web Front End</a></li>
-                    <li class="breadcrumb-item active">CSS</li>
+                    <li class="breadcrumb-item"><a href="libraries.html">Libraries</a></li>
+                    <li class="breadcrumb-item active">jQuery</li>
                 </ol>
             </nav>
         </div>
@@ -181,83 +190,58 @@
                     <h1 class="wow slideInLeft" data-wow-duration="2s">Featured Blogs</h1>
                     <div class="row box-3">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <img src="assets/images/html-img.jpg" class="img-fluid" alt="html 5">
+                            <img src="assets/images/jquery.jpg" class="img-fluid" alt="html 5">
                             <div class="card">
                                 <div class="card-block">
-                                    <h2>CSS</h2>
-                                    <p>HTML stands for Hyper Text Markup Language. It is used to design web pages using
-                                        a markup language.
-                                        HTML is an abbreviation of Hypertext and Markup language. Hypertext defines the
-                                        link between the web pages.
-                                        A markup language is used to define the text document within the tag, which
-                                        defines the structure of web pages.</p>
+                                    <h2>jQuery</h2>
+                                    <p>jQuery is an open-source JavaScript library that simplifies the interactions
+                                        between an HTML/CSS document,
+                                        or more precisely the Document Object Model (DOM), and JavaScript. Elaborating
+                                        the terms, it simplifies
+                                        HTML document traversing and manipulation, browser event handling, DOM
+                                        animations, Ajax interactions,
+                                        and cross-browser JavaScript development.</p>
 
-                                    <p>HTML 5 is the fifth and current version of HTML. It has improved the markup
-                                        available for documents and has introduced
-                                        application programming interfaces (API) and a Document Object Model (DOM).</p>
+                                    <h4 class="mt-2">Why to use jQuery?</h4>
+                                    <p>Some of the key points that support the answer for why to use jQuery:</p>
+                                    <ul>
+                                        <li><i class="fa fa-bandcamp" aria-hidden="true"></i>It helps us to manipulate
+                                            HTML and CSS</li>
+                                        <li><i class="fa fa-bandcamp" aria-hidden="true"></i>It helps us to manipulate
+                                            DOM (Document Object Model) elements</li>
+                                        <li><i class="fa fa-bandcamp" aria-hidden="true"></i>Provides event methods to
+                                            trigger and respond to an events on a html page
+                                            such as mouse click, keypress etc.</li>
+                                        <li><i class="fa fa-bandcamp" aria-hidden="true"></i>Implements AJAX calls.</li>
+                                    </ul>
 
                                     <h3>Advantages </h3>
                                     <ul>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> HTML helps to build structure
-                                            of a website and is a widely used Markup language.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> It is easy to learn.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> Every browser supports HTML
-                                            Language.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> HTML is light weighted and
-                                            fast to load.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> Storage of big files are
-                                            allowed because of the application cache feature.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> Do not get to purchase any
-                                            extra software because it's by default in every window.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> Loose syntax (although, being
-                                            too flexible won't suit standards).</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> HTML is simple to edit as
-                                            being a plain text.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> It integrates easily with
-                                            other languages such as JavaScript, CSS etc.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> HTML is that it is easy to
-                                            code even for novice programmers.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> HTML also allows the
-                                            utilization of templates, which makes designing a webpage easy.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> It is fast to download as the
-                                            text is compressible.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> Very useful for beginners in
-                                            the web designing field.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> HTML can be supported to each
-                                            and every browser, if not supported to all the browsers.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> HTML is built on almost every
-                                            website, if not all websites.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i> HTML is increasingly used for
-                                            data storage as like XML syntax.</li>
-                                        <li><i class="fa fa-check" aria-hidden="true"></i>HTML has many tag and
-                                            attributes which can short your line of code.</li>
+                                        <li><i class="fa fa-check" aria-hidden="true"></i> Wide range of plug-ins that
+                                            allows developers to create plug-ins on top of the JavaScript library.</li>
+                                        <li><i class="fa fa-check" aria-hidden="true"></i> Large development community.
+                                        </li>
+                                        <li><i class="fa fa-check" aria-hidden="true"></i> It is a lot easier to use
+                                            compared to standard javascript and other javascript libraries.</li>
+                                        <li><i class="fa fa-check" aria-hidden="true"></i> It lets users develop Ajax
+                                            templates with ease. Ajax enables a sleeker interface where actions can be
+                                            performed on pages without requiring the entire page to be reloaded.</li>
+                                        <li><i class="fa fa-check" aria-hidden="true"></i> Being Light weight and a
+                                            powerful chaining capabilities makes it more strong.</li>
                                     </ul>
 
                                     <h3>Disadvantages : </h3>
                                     <ul>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> It cannot produce dynamic
-                                            output alone, since it's a static language..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> Making the structure of HTML
-                                            documents becomes tough to understand..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> Errors can be costly..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> It is the time consuming as
-                                            the time it consume to maintain on the color scheme of a page and to make
-                                            lists, tables and forms..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> We need to write a lot of
-                                            code for just creating a simple webpage..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> We have to check up the
-                                            deprecated tags and confirm not
-                                            to use them to appear because another language that works with HTML has
-                                            replaced the first work of the tag, and hence the opposite
-                                            anguage needs to be understood and learned..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> Security features offered by
-                                            HTML are limited..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> If we need to write down long
-                                            code for creating a webpage then it produces some complexity..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> HTML can create only static
-                                            and plain pages so if we'd like dynamic pages then HTML isn't useful..</li>
-                                        <li><i class="fa fa-times" aria-hidden="true"></i> Editing of web page need to
-                                            be done separately , they are not centralized.</li>
+                                        <li><i class="fa fa-times" aria-hidden="true"></i> While jQuery has an
+                                            impressive library in terms of quantity, depending on how much customization
+                                            you require on your website.
+                                            The functionality may be limited thus using raw javascript may be inevitable
+                                            in some cases.</li>
+                                        <li><i class="fa fa-times" aria-hidden="true"></i> The JQuery javascript file is
+                                            required to run the commands, while the size of this file is relatively
+                                            small (25-100KB depending on the server).
+                                            It is still a strain on the client computer and maybe your web server as
+                                            well if you intend to host the script on your own web server.</li>
                                     </ul>
 
 
@@ -273,66 +257,70 @@
                             <h1>Related Blogs</h1>
                             <div class="row">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-12">
-                                  
+
                                     <div class="popular-box">
                                         <div class="popular-Number">
                                             <span>01</span>
                                         </div>
                                         <div class="popular-details">
-                                            <h5>LIBRARIES</h5>
-                                            <p>Text will update soon, Text will update soon. Text will update
-                                                soon</p>
+                                            <h5>JAVASCIPT</h5>
+                                            <p>Learn more about on JavaScript and its frameworks, libraries used in
+                                                front end development.</p>
                                             <div class="normal-btn">
-                                                <a href="libraries.html">Read More</a>
+                                                <a href="javascript.html">Read More</a>
                                             </div>
                                         </div>
+
                                     </div>
                                     <div class="popular-box">
                                         <div class="popular-Number">
                                             <span>02</span>
                                         </div>
                                         <div class="popular-details">
-                                            <h5>FRAMEWORKS</h5>
-                                            <p>Text will update soon, Text will update soon. Text will update
-                                                soon</p>
+                                            <h5>LIBRARIES</h5>
+                                            <p>Check out the latest and most used libraries for the development of
+                                                websites and web apps.</p>
                                             <div class="normal-btn">
-                                                <a href="frameworks.html">Read More</a>
+                                                <a href="libraries.html">Read More</a>
                                             </div>
                                         </div>
+
                                     </div>
                                     <div class="popular-box">
                                         <div class="popular-Number">
                                             <span>03</span>
                                         </div>
                                         <div class="popular-details">
-                                            <h5>JAVASCIPT</h5>
-                                            <p>Text will update soon, Text will update soon. Text will update
-                                                soon</p>
+                                            <h5>FRAMEWORKS</h5>
+                                            <p>Check out the latest and most used frameworks for the development of
+                                                websites and web apps.</p>
                                             <div class="normal-btn">
-                                                <a href="javascript.html">Read More</a>
+                                                <a href="frameworks.html">Read More</a>
                                             </div>
                                         </div>
                                     </div>
-                                
+
                                 </div>
-                             
+
 
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-12">
                                     <h1>Popular Blogs</h1>
                                     <div class="row">
                                         <div class="col-xl-12 col-lg-12 col-md-12 col-12">
-                                      
                                             <div class="popular-box">
                                                 <div class="popular-Number">
                                                     <span>01</span>
                                                 </div>
                                                 <div class="popular-details">
-                                                    <h5>Developer Tools</h5>
-                                                    <p>Text will update soon, Text will update soon. Text will update soon</p>
+                                                    <h5>Online Code Environments</h5>
+                                                    <p>Pratice and try the coding through online code editors which help
+                                                        live output experience.
+                                                    </p>
                                                     <div class="normal-btn">
-                                                        <a href="developer_tools.html">Read More</a>
+                                                        <a href="online_code_environments.html">Read More</a>
                                                     </div>
                                                 </div>
+
                                             </div>
                                             <div class="popular-box">
                                                 <div class="popular-Number">
@@ -340,38 +328,43 @@
                                                 </div>
                                                 <div class="popular-details">
                                                     <h5>Code Validators</h5>
-                                                    <p>Text will update soon, Text will update soon. Text will update soon</p>
+                                                    <p>Make sure the code is verified by the external source of
+                                                        validation before delopy.
+                                                    </p>
                                                     <div class="normal-btn">
                                                         <a href="code_validators.html">Read More</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                
+
                                             <div class="popular-box">
                                                 <div class="popular-Number">
                                                     <span>03</span>
                                                 </div>
                                                 <div class="popular-details">
-                                                    <h5>Online Code Environments</h5>
-                                                    <p>Text will update soon, Text will update soon. Text will update soon</p>
+                                                    <h5>Developer Tools</h5>
+                                                    <p>Learn the advantage and uses of developer tools make development
+                                                        more easy.
+                                                    </p>
                                                     <div class="normal-btn">
-                                                        <a href="online_code_environments.html">Read More</a>
+                                                        <a href="developer_tools.html">Read More</a>
                                                     </div>
                                                 </div>
-                                        </div>
-                                        <div class="popular-box">
-                                            <div class="popular-Number">
-                                                <span>04</span>
                                             </div>
-                                            <div class="popular-details">
-                                                <h5>Version Control System</h5>
-                                                <p>Text will update soon, Text will update soon. Text will update soon</p>
-                                                <div class="normal-btn">
-                                                    <a href="version_control_system.html">Read More</a>
+                                            <div class="popular-box">
+                                                <div class="popular-Number">
+                                                    <span>04</span>
+                                                </div>
+                                                <div class="popular-details">
+                                                    <h5>Version Control System</h5>
+                                                    <p>Check out the proper idea of a version control system for a
+                                                        professional career.</p>
+                                                    <div class="normal-btn">
+                                                        <a href="version_control_system.html">Read More</a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                    </div>
-                                     
+
                                         </div>
                                     </div>
                                 </div>
@@ -388,7 +381,8 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <h3>WEB NOTEZ</h3>
-                    <p>The blog is mainly about all assets for Front End web development.  It is for people who want to learn about these topics and make an idea about each keyword under Front end development.</p>
+                    <p>The blog is mainly about all assets for Front End web development. It is for people who want to
+                        learn about these topics and make an idea about each keyword under Front end development.</p>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                     <h3>RECENT BLOGS</h3>
@@ -401,7 +395,7 @@
                     <p><a href="html5.html">HTML</a></p>
                     <p><a href="css.html">CSS</a></p>
                     <p><a href="javascript.html">JAVASCIPT</a></p>
-                 
+
                 </div>
             </div>
             <div class="row">
@@ -409,10 +403,10 @@
                     <p>&#169; 2022 Webnotes; All right received <br>
                         <a href="privacy_policy.html">Privacy Policy</a> <a href="sitemap.html"> Sitemap</a></p>
                 </div>
-    
+
             </div>
         </div>
-       </footer>
+    </footer>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
